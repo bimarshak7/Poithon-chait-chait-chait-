@@ -44,7 +44,7 @@ def display():
 sbt=Button(canv1,text="Search",command=display)
 fd1=Entry(canv1,font=("Arial",20))
 canv1.create_window(400,80, window=sbt)
-canv3.create_text(350,20,text="Created BY: Bimarsha Khanal",fill="white",font=font2)
+canv3.create_text(350,20,text="@bimarshak7",fill="white",font=font2)
 canv1.create_window(400,40, window=fd1)
 canv1.pack()
 canv2.pack()

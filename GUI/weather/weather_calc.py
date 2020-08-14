@@ -25,7 +25,6 @@ def search(city):
 		sunrise=timeconv(data["sys"]["sunrise"])
 		sunset=timeconv(data["sys"]["sunset"])
 		humidity=str(data["main"]["humidity"])+" %"
-		wind_speed=str(data["wind"]["speed"])+" m/s"
 		pressure=str(data["main"]["pressure"])+" hPa"
 		wind_dir=winddir(data["wind"]["deg"])
 		url="http://openweathermap.org/img/wn/"+data["weather"][0]["icon"]+"@2x.png"
